@@ -1,0 +1,19 @@
+HuggingFace:
+  # Get your token here: https://huggingface.co/settings/tokens.
+  token: hf_1337totallyLegitToken1337
+
+  # Your HuggingFace username.
+  namespace: gregorgabrovsek
+
+  # Imdb repo prefix and postfix, the number inbetween will be inserted by the code. It's okay to leave this alone.
+  dataset_repo_prefix: imdb1m-top
+  dataset_repo_postfix: users
+
+IMDb:
+  # Set this yourself after downloading the IMDb1m dataset
+  review_texts_file_path: ../../../raw_data/imdb1m/imdb1m-reviews.txt
+  posts_texts_file_path: ../../../raw_data/imdb1m/imdb1m-posts.txt
+
+  output_folder: ../../../raw_data/imdb1m/output
+  top_n_users: [5, 10, 25, 50, 100]
+  train_test_split: 0.75
