@@ -50,3 +50,20 @@ When running the file, you have to specify the following arguments:
 - `use_imdb`: Whether to use the IMDb1m dataset (`0` for false/RTV SLO, `1` for true/IMDb1m)
 
 Before starting the script, you have to edit the `huggingface_username` variable in line 11.
+
+## Citation
+
+You can cite the paper using the following BibTeX snippet:
+
+```bibtex
+@article{gabrovvsek2023authorship,
+  title={Authorship Attribution on Short Texts in the Slovenian Language},
+  author={Gabrov{\v{s}}ek, Gregor and Peer, Peter and Emer{\v{s}}i{\v{c}}, {\v{Z}}iga and Batagelj, Borut},
+  journal={Applied Sciences},
+  volume={13},
+  number={19},
+  pages={10965},
+  year={2023},
+  publisher={MDPI}
+}
+```
