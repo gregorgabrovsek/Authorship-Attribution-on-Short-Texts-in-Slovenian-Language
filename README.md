@@ -1,5 +1,7 @@
 # Authorship Attribution on Short Texts in Slovenian Language
 
+### [Link to the paper](https://doi.org/10.3390/app131910965)
+
 This repository contains the code used in the project titled "Authorship Attribution on Short Texts in Slovenian Language".
 The project investigates the task of authorship attribution on short texts in Slovenian using two BERT language models.
 
